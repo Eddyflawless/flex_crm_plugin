@@ -1,0 +1,23 @@
+{
+  "name": "crm-plugin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check",
+    "serve": "twilio flex:plugins:start"
+  },
+  "dependencies": {
+    "datatables": "^1.10.18",
+    "flex-plugin-scripts": "4.2.1",
+    "formik": "^2.1.3",
+    "jquery": "^3.6.0",
+    "notiflix": "^3.2.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1",
+    "file-loader": "^6.2.0",
+    "react-test-renderer": "16.5.2"
+  }
+}
